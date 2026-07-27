@@ -2,8 +2,7 @@
 import pandas as pd
 import os
 import urllib.parse
-from utils import load_materials, add_material, search_materials, increment_downloads, add_rating, get_average_rating, CATEGORIES, UPLOADS_DIR
-
+from database import load_materials, add_material, search_materials, increment_downloads, add_rating, get_average_rating, CATEGORIES, UPLOADS_DIR
 st.set_page_config(page_title="منصة مواد اقتصاديات التجارة الخارجية", page_icon="logo.png", layout="wide")
 
 st.markdown("<style>.stContainer{border-radius:10px;} div[data-testid='stMetric']{background-color:#EFF3F6; border-radius:10px; padding:15px;} </style>", unsafe_allow_html=True)
