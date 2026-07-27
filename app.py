@@ -152,3 +152,4 @@ elif page == "عن المنصة":
 
 st.markdown("---")
 st.markdown("<center style='color:#0F3B5F;'>جامعة العاصمة | كلية التجارة وإدارة الأعمال | قسم اقتصاديات التجارة الخارجية 2026</center>", unsafe_allow_html=True)
+
